@@ -34,9 +34,9 @@
   border-radius: 50%;
   display: inline-block;
   position: relative;
+  transition: all linear 0.2s;
   &:hover {
     background-color: var(--orange);
-    transition: all linear 0.2s;
   }
 }
 .iconLink {
@@ -71,9 +71,11 @@
   box-shadow: none;
   padding-left: 20px;
   padding-right: 10px;
+  transition: all linear 0.2s;
 }
 .input:focus {
   border-color: var(--orange);
+  outline: 0px;
 }
 .btnSub {
   width: 150px;
@@ -82,8 +84,8 @@
   font-size: 1.4rem;
   padding: 17px 0;
   margin-top: 20px;
+  transition: all linear 0.2s;
   &:hover {
     background-color: black;
-    transition: all linear 0.2s;
   }
 }

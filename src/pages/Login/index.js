@@ -18,7 +18,7 @@ function Login() {
       <Header />
       <Navigation />
 
-      <div className={cx("loginBedHeader")}>
+      <div className={cx("loginHeader")}>
         <h1>LOGIN</h1>
         <div className={cx("link")}>
           <Link to={config.routes.home} className={cx("linkHome")}>

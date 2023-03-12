@@ -1,6 +1,9 @@
 const newArrival = [
   {
     id: 1,
+    color: ["Blue", "Gray", "White"],
+    size: ["SemiDouble", "Double"],
+    material: ["Wood", "Metal"],
     img: "https://furns-react.netlify.app/_next/image?url=https%3A%2F%2Fcdn.shopify.com%2Fs%2Ffiles%2F1%2F0597%2F8970%2F5392%2Fproducts%2F11-02.jpg%3Fv%3D1632281991&w=384&q=75",
     title: "Variable Product",
     oldCost: "$119.0",
@@ -10,6 +13,9 @@ const newArrival = [
   },
   {
     id: 2,
+    color: ["Blue", "Gray", "White"],
+    size: ["SemiDouble", "Double"],
+    material: ["Wood", "Metal"],
     img: "https://furns-react.netlify.app/_next/image?url=https%3A%2F%2Fcdn.shopify.com%2Fs%2Ffiles%2F1%2F0597%2F8970%2F5392%2Fproducts%2F11-02.jpg%3Fv%3D1632281991&w=384&q=75",
     title: "Variable Product",
     oldCost: "$119.0",
@@ -17,6 +23,9 @@ const newArrival = [
   },
   {
     id: 3,
+    color: ["Blue", "Gray", "White"],
+    size: ["SemiDouble", "Double"],
+    material: ["Wood", "Metal"],
     img: "https://furns-react.netlify.app/_next/image?url=https%3A%2F%2Fcdn.shopify.com%2Fs%2Ffiles%2F1%2F0597%2F8970%2F5392%2Fproducts%2F11-02.jpg%3Fv%3D1632281991&w=384&q=75",
     title: "Variable Product",
     oldCost: "$119.0",
@@ -24,6 +33,9 @@ const newArrival = [
   },
   {
     id: 4,
+    color: ["Blue", "Gray", "White"],
+    size: ["SemiDouble", "Double"],
+    material: ["Wood", "Metal"],
     img: "https://furns-react.netlify.app/_next/image?url=https%3A%2F%2Fcdn.shopify.com%2Fs%2Ffiles%2F1%2F0597%2F8970%2F5392%2Fproducts%2F11-02.jpg%3Fv%3D1632281991&w=384&q=75",
     title: "Variable Product",
     oldCost: "$119.0",
@@ -31,6 +43,9 @@ const newArrival = [
   },
   {
     id: 5,
+    color: ["Blue", "Gray", "White"],
+    size: ["SemiDouble", "Double"],
+    material: ["Wood", "Metal"],
     img: "https://furns-react.netlify.app/_next/image?url=https%3A%2F%2Fcdn.shopify.com%2Fs%2Ffiles%2F1%2F0597%2F8970%2F5392%2Fproducts%2F11-02.jpg%3Fv%3D1632281991&w=384&q=75",
     title: "Variable Product",
     oldCost: "$119.0",
@@ -38,6 +53,9 @@ const newArrival = [
   },
   {
     id: 6,
+    color: ["Blue", "Gray", "White"],
+    size: ["SemiDouble", "Double"],
+    material: ["Wood", "Metal"],
     img: "https://furns-react.netlify.app/_next/image?url=https%3A%2F%2Fcdn.shopify.com%2Fs%2Ffiles%2F1%2F0597%2F8970%2F5392%2Fproducts%2F11-02.jpg%3Fv%3D1632281991&w=384&q=75",
     title: "Variable Product",
     oldCost: "$119.0",
@@ -45,6 +63,9 @@ const newArrival = [
   },
   {
     id: 7,
+    color: ["Blue", "Gray", "White"],
+    size: ["SemiDouble", "Double"],
+    material: ["Wood", "Metal"],
     img: "https://furns-react.netlify.app/_next/image?url=https%3A%2F%2Fcdn.shopify.com%2Fs%2Ffiles%2F1%2F0597%2F8970%2F5392%2Fproducts%2F11-02.jpg%3Fv%3D1632281991&w=384&q=75",
     title: "Variable Product",
     oldCost: "$119.0",
@@ -52,6 +73,9 @@ const newArrival = [
   },
   {
     id: 8,
+    color: ["Blue", "Gray", "White"],
+    size: ["SemiDouble", "Double"],
+    material: ["Wood", "Metal"],
     img: "https://furns-react.netlify.app/_next/image?url=https%3A%2F%2Fcdn.shopify.com%2Fs%2Ffiles%2F1%2F0597%2F8970%2F5392%2Fproducts%2F11-02.jpg%3Fv%3D1632281991&w=384&q=75",
     title: "Variable Product",
     oldCost: "$119.0",
@@ -62,6 +86,9 @@ const newArrival = [
 const featured = [
   {
     id: 1,
+    color: ["Blue", "Gray", "White"],
+    size: ["SemiDouble", "Double"],
+    material: ["Wood", "Metal"],
     img: "https://furns-react.netlify.app/_next/image?url=https%3A%2F%2Fcdn.shopify.com%2Fs%2Ffiles%2F1%2F0597%2F8970%2F5392%2Fproducts%2F2.jpg%3Fv%3D1632544899&w=384&q=75",
     title: "Variable Product",
     oldCost: "$119.0",
@@ -69,6 +96,9 @@ const featured = [
   },
   {
     id: 2,
+    color: ["Blue", "Gray", "White"],
+    size: ["SemiDouble", "Double"],
+    material: ["Wood", "Metal"],
     img: "https://furns-react.netlify.app/_next/image?url=https%3A%2F%2Fcdn.shopify.com%2Fs%2Ffiles%2F1%2F0597%2F8970%2F5392%2Fproducts%2F2.jpg%3Fv%3D1632544899&w=384&q=75",
     title: "Variable Product",
     oldCost: "$119.0",
@@ -76,6 +106,9 @@ const featured = [
   },
   {
     id: 3,
+    color: ["Blue", "Gray", "White"],
+    size: ["SemiDouble", "Double"],
+    material: ["Wood", "Metal"],
     img: "https://furns-react.netlify.app/_next/image?url=https%3A%2F%2Fcdn.shopify.com%2Fs%2Ffiles%2F1%2F0597%2F8970%2F5392%2Fproducts%2F2.jpg%3Fv%3D1632544899&w=384&q=75",
     title: "Variable Product",
     oldCost: "$119.0",
@@ -83,6 +116,9 @@ const featured = [
   },
   {
     id: 4,
+    color: ["Blue", "Gray", "White"],
+    size: ["SemiDouble", "Double"],
+    material: ["Wood", "Metal"],
     img: "https://furns-react.netlify.app/_next/image?url=https%3A%2F%2Fcdn.shopify.com%2Fs%2Ffiles%2F1%2F0597%2F8970%2F5392%2Fproducts%2F2.jpg%3Fv%3D1632544899&w=384&q=75",
     title: "Variable Product",
     oldCost: "$119.0",
@@ -90,6 +126,9 @@ const featured = [
   },
   {
     id: 5,
+    color: ["Blue", "Gray", "White"],
+    size: ["SemiDouble", "Double"],
+    material: ["Wood", "Metal"],
     img: "https://furns-react.netlify.app/_next/image?url=https%3A%2F%2Fcdn.shopify.com%2Fs%2Ffiles%2F1%2F0597%2F8970%2F5392%2Fproducts%2F2.jpg%3Fv%3D1632544899&w=384&q=75",
     title: "Variable Product",
     oldCost: "$119.0",
@@ -97,6 +136,9 @@ const featured = [
   },
   {
     id: 6,
+    color: ["Blue", "Gray", "White"],
+    size: ["SemiDouble", "Double"],
+    material: ["Wood", "Metal"],
     img: "https://furns-react.netlify.app/_next/image?url=https%3A%2F%2Fcdn.shopify.com%2Fs%2Ffiles%2F1%2F0597%2F8970%2F5392%2Fproducts%2F2.jpg%3Fv%3D1632544899&w=384&q=75",
     title: "Variable Product",
     oldCost: "$119.0",
@@ -104,6 +146,9 @@ const featured = [
   },
   {
     id: 7,
+    color: ["Blue", "Gray", "White"],
+    size: ["SemiDouble", "Double"],
+    material: ["Wood", "Metal"],
     img: "https://furns-react.netlify.app/_next/image?url=https%3A%2F%2Fcdn.shopify.com%2Fs%2Ffiles%2F1%2F0597%2F8970%2F5392%2Fproducts%2F2.jpg%3Fv%3D1632544899&w=384&q=75",
     title: "Variable Product",
     oldCost: "$119.0",
@@ -111,6 +156,9 @@ const featured = [
   },
   {
     id: 8,
+    color: ["Blue", "Gray", "White"],
+    size: ["SemiDouble", "Double"],
+    material: ["Wood", "Metal"],
     img: "https://furns-react.netlify.app/_next/image?url=https%3A%2F%2Fcdn.shopify.com%2Fs%2Ffiles%2F1%2F0597%2F8970%2F5392%2Fproducts%2F2.jpg%3Fv%3D1632544899&w=384&q=75",
     title: "Variable Product",
     oldCost: "$119.0",
@@ -121,6 +169,9 @@ const featured = [
 const onSale = [
   {
     id: 1,
+    color: ["Blue", "Gray", "White"],
+    size: ["SemiDouble", "Double"],
+    material: ["Wood", "Metal"],
     img: "https://furns-react.netlify.app/_next/image?url=https%3A%2F%2Fcdn.shopify.com%2Fs%2Ffiles%2F1%2F0597%2F8970%2F5392%2Fproducts%2F3.jpg%3Fv%3D1632547635&w=384&q=75",
     title: "Variable Product",
     oldCost: "$119.0",
@@ -128,6 +179,9 @@ const onSale = [
   },
   {
     id: 2,
+    color: ["Blue", "Gray", "White"],
+    size: ["SemiDouble", "Double"],
+    material: ["Wood", "Metal"],
     img: "https://furns-react.netlify.app/_next/image?url=https%3A%2F%2Fcdn.shopify.com%2Fs%2Ffiles%2F1%2F0597%2F8970%2F5392%2Fproducts%2F3.jpg%3Fv%3D1632547635&w=384&q=75",
     title: "Variable Product",
     oldCost: "$119.0",
@@ -135,6 +189,9 @@ const onSale = [
   },
   {
     id: 3,
+    color: ["Blue", "Gray", "White"],
+    size: ["SemiDouble", "Double"],
+    material: ["Wood", "Metal"],
     img: "https://furns-react.netlify.app/_next/image?url=https%3A%2F%2Fcdn.shopify.com%2Fs%2Ffiles%2F1%2F0597%2F8970%2F5392%2Fproducts%2F3.jpg%3Fv%3D1632547635&w=384&q=75",
     title: "Variable Product",
     oldCost: "$119.0",
@@ -142,6 +199,9 @@ const onSale = [
   },
   {
     id: 4,
+    color: ["Blue", "Gray", "White"],
+    size: ["SemiDouble", "Double"],
+    material: ["Wood", "Metal"],
     img: "https://furns-react.netlify.app/_next/image?url=https%3A%2F%2Fcdn.shopify.com%2Fs%2Ffiles%2F1%2F0597%2F8970%2F5392%2Fproducts%2F3.jpg%3Fv%3D1632547635&w=384&q=75",
     title: "Variable Product",
     oldCost: "$119.0",
@@ -149,6 +209,9 @@ const onSale = [
   },
   {
     id: 5,
+    color: ["Blue", "Gray", "White"],
+    size: ["SemiDouble", "Double"],
+    material: ["Wood", "Metal"],
     img: "https://furns-react.netlify.app/_next/image?url=https%3A%2F%2Fcdn.shopify.com%2Fs%2Ffiles%2F1%2F0597%2F8970%2F5392%2Fproducts%2F3.jpg%3Fv%3D1632547635&w=384&q=75",
     title: "Variable Product",
     oldCost: "$119.0",
@@ -156,6 +219,9 @@ const onSale = [
   },
   {
     id: 6,
+    color: ["Blue", "Gray", "White"],
+    size: ["SemiDouble", "Double"],
+    material: ["Wood", "Metal"],
     img: "https://furns-react.netlify.app/_next/image?url=https%3A%2F%2Fcdn.shopify.com%2Fs%2Ffiles%2F1%2F0597%2F8970%2F5392%2Fproducts%2F3.jpg%3Fv%3D1632547635&w=384&q=75",
     title: "Variable Product",
     oldCost: "$119.0",
@@ -166,6 +232,9 @@ const onSale = [
 const tending = [
   {
     id: 1,
+    color: ["Blue", "Gray", "White"],
+    size: ["SemiDouble", "Double"],
+    material: ["Wood", "Metal"],
     img: "https://furns-react.netlify.app/_next/image?url=https%3A%2F%2Fcdn.shopify.com%2Fs%2Ffiles%2F1%2F0597%2F8970%2F5392%2Fproducts%2F1_6c997eeb-8f70-49d3-8432-0d82b2c83c8f.jpg%3Fv%3D1632547241&w=384&q=75",
     title: "Variable Product",
     oldCost: "$119.0",
@@ -173,6 +242,9 @@ const tending = [
   },
   {
     id: 2,
+    color: ["Blue", "Gray", "White"],
+    size: ["SemiDouble", "Double"],
+    material: ["Wood", "Metal"],
     img: "https://furns-react.netlify.app/_next/image?url=https%3A%2F%2Fcdn.shopify.com%2Fs%2Ffiles%2F1%2F0597%2F8970%2F5392%2Fproducts%2F1_6c997eeb-8f70-49d3-8432-0d82b2c83c8f.jpg%3Fv%3D1632547241&w=384&q=75",
     title: "Variable Product",
     oldCost: "$119.0",
@@ -180,6 +252,9 @@ const tending = [
   },
   {
     id: 3,
+    color: ["Blue", "Gray", "White"],
+    size: ["SemiDouble", "Double"],
+    material: ["Wood", "Metal"],
     img: "https://furns-react.netlify.app/_next/image?url=https%3A%2F%2Fcdn.shopify.com%2Fs%2Ffiles%2F1%2F0597%2F8970%2F5392%2Fproducts%2F1_6c997eeb-8f70-49d3-8432-0d82b2c83c8f.jpg%3Fv%3D1632547241&w=384&q=75",
     title: "Variable Product",
     oldCost: "$119.0",
@@ -187,6 +262,9 @@ const tending = [
   },
   {
     id: 4,
+    color: ["Blue", "Gray", "White"],
+    size: ["SemiDouble", "Double"],
+    material: ["Wood", "Metal"],
     img: "https://furns-react.netlify.app/_next/image?url=https%3A%2F%2Fcdn.shopify.com%2Fs%2Ffiles%2F1%2F0597%2F8970%2F5392%2Fproducts%2F1_6c997eeb-8f70-49d3-8432-0d82b2c83c8f.jpg%3Fv%3D1632547241&w=384&q=75",
     title: "Variable Product",
     oldCost: "$119.0",
@@ -194,6 +272,9 @@ const tending = [
   },
   {
     id: 5,
+    color: ["Blue", "Gray", "White"],
+    size: ["SemiDouble", "Double"],
+    material: ["Wood", "Metal"],
     img: "https://furns-react.netlify.app/_next/image?url=https%3A%2F%2Fcdn.shopify.com%2Fs%2Ffiles%2F1%2F0597%2F8970%2F5392%2Fproducts%2F1_6c997eeb-8f70-49d3-8432-0d82b2c83c8f.jpg%3Fv%3D1632547241&w=384&q=75",
     title: "Variable Product",
     oldCost: "$119.0",
@@ -201,6 +282,9 @@ const tending = [
   },
   {
     id: 6,
+    color: ["Blue", "Gray", "White"],
+    size: ["SemiDouble", "Double"],
+    material: ["Wood", "Metal"],
     img: "https://furns-react.netlify.app/_next/image?url=https%3A%2F%2Fcdn.shopify.com%2Fs%2Ffiles%2F1%2F0597%2F8970%2F5392%2Fproducts%2F1_6c997eeb-8f70-49d3-8432-0d82b2c83c8f.jpg%3Fv%3D1632547241&w=384&q=75",
     title: "Variable Product",
     oldCost: "$119.0",

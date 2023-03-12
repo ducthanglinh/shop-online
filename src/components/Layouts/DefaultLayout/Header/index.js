@@ -8,8 +8,12 @@ import {
 } from "@fortawesome/free-solid-svg-icons";
 import { Link } from "react-router-dom";
 import routes from "~/config/routes";
+import carts from "~/datas/dataCarts";
+import { useState } from "react";
+import config from "~/config";
 const cx = classNames.bind(styles);
 function Header() {
+  const [number, setNum] = useState(carts.length);
   return (
     <header className={cx("wrapper")}>
       <div className={cx("content")}>
@@ -56,12 +60,15 @@ function Header() {
             </button>
           </div>
           <div className={cx("dvTool")}>
-            <button className={cx("cart")}>
+            <Link to={routes.cartpage} className={cx("cart")}>
               <FontAwesomeIcon
                 className={cx("cart-icon")}
                 icon={faBagShopping}
               />
-            </button>
+            </Link>
+            <div className={cx("circle")}>
+              <span className={cx("number")}>{number}</span>
+            </div>
           </div>
         </div>
       </div>

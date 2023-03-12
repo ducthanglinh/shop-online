@@ -13,6 +13,8 @@ import HospitalUtility from "~/pages/HospitalFurnitures/HospitalUtility";
 import Contact from "~/pages/Contact";
 import Login from "~/pages/Login";
 import SignUp from "~/pages/SignUp";
+import ProductDetails from "~/pages/ProductDetails";
+import CartPage from "~/pages/CartPage";
 
 const publicRoutes = [
   {
@@ -67,10 +69,14 @@ const publicRoutes = [
     path: config.routes.signup,
     component: SignUp,
   },
-  // {
-  //   path: config.routes.cart,
-  //   component: Cart,
-  // },
+  {
+    path: config.routes.productdetails,
+    component: ProductDetails,
+  },
+  {
+    path: config.routes.cartpage,
+    component: CartPage,
+  },
   // {
   //   path: config.routes.wishlist,
   //   component: Wishlist,

@@ -182,11 +182,13 @@
 }
 .btnAdd,
 .btnStockOut {
-  display: block;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  color: var(--primary);
   position: absolute;
   width: 80%;
   height: 45px;
-  text-align: center;
   bottom: 18px;
   left: 27px;
   background-color: #fff;

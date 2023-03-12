@@ -46,9 +46,9 @@
   border-radius: 50%;
   border: 2px solid rgb(67, 71, 78);
 
+  animation: rotateAround linear infinite;
   &:hover {
     border: 2px dashed var(--orange);
-    animation: rotateAround linear infinite;
 
     .swiper-slide::after {
       opacity: 1;

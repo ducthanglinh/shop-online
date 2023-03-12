@@ -2,7 +2,7 @@ import { useState } from "react";
 import Tippy from "@tippyjs/react";
 import "tippy.js/dist/tippy.css";
 import classNames from "classnames/bind";
-import styles from "./Products.module.scss";
+import styles from "./Products.";
 import { FontAwesomeIcon } from "@fortawesome/react-fontawesome";
 import { faHeart, faSquarePlus } from "@fortawesome/free-regular-svg-icons";
 import {
@@ -12,13 +12,17 @@ import {
   faTimes,
 } from "@fortawesome/free-solid-svg-icons";
 import Toast from "../Layouts/component/toast";
+import { Link } from "react-router-dom";
+import routes from "~/config/routes";
+import { productDetails } from "~/pages/datas";
+import config from "~/config";
 
 const cx = classNames.bind(styles);
 
 function Products({ dataProducts, name }) {
   const [list, setList] = useState([]);
   let toastProps = null;
-
+  const [proDetail, setProDetail] = useState();
   const [stateAdd, setStateAdd] = useState(false);
   const [stateAddCompare, setStateAddCompare] = useState(false);
   const [currentIndex, setCurrentIndex] = useState([]);
@@ -97,6 +101,19 @@ function Products({ dataProducts, name }) {
     }
     setList([...list, toastProps]);
   };
+
+  const handleClick = (index) => {
+    const JSON_STORAGE_KEY = "proDetail";
+
+    if (productDetails.length > 0) {
+      productDetails[0] = dataProducts[index];
+      localStorage.setItem(JSON_STORAGE_KEY, JSON.stringify(productDetails));
+    } else {
+      productDetails.push(dataProducts[index]);
+
+      localStorage.setItem(JSON_STORAGE_KEY, JSON.stringify(productDetails));
+    }
+  };
   return (
     <div className={cx("wrapper", "grid", "wide")}>
       <div className={cx("row")}>
@@ -143,7 +160,7 @@ function Products({ dataProducts, name }) {
                     <Tippy
                       className={cx("tippy")}
                       placement="left"
-                      content="Add to WishList"
+                      content="Quick View"
                     >
                       <button className={cx("btnZoom")}>
                         <FontAwesomeIcon
@@ -157,7 +174,7 @@ function Products({ dataProducts, name }) {
                     <Tippy
                       className={cx("tippy")}
                       placement="left"
-                      content="Add to WishList"
+                      content="Add to Compare"
                     >
                       <button
                         onClick={(e) => {
@@ -176,7 +193,7 @@ function Products({ dataProducts, name }) {
 
                 <div className={cx("addToCart")}>
                   {item.stockOut ? (
-                    <button className={cx("btnStockOut")}>
+                    <button className={cx("btnStockOut")} disabled>
                       <FontAwesomeIcon
                         className={cx("addIcon")}
                         icon={faCartShopping}
@@ -184,13 +201,19 @@ function Products({ dataProducts, name }) {
                       Out of Stock
                     </button>
                   ) : (
-                    <button className={cx("btnAdd")}>
+                    <Link
+                      to={config.routes.productdetails}
+                      className={cx("btnAdd")}
+                      onClick={(e) => {
+                        handleClick(index);
+                      }}
+                    >
                       <FontAwesomeIcon
                         className={cx("addIcon")}
                         icon={faCartShopping}
                       />
                       Select Options
-                    </button>
+                    </Link>
                   )}
                 </div>
               </div>
