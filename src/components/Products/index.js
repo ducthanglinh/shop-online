@@ -2,7 +2,7 @@ import { useState } from "react";
 import Tippy from "@tippyjs/react";
 import "tippy.js/dist/tippy.css";
 import classNames from "classnames/bind";
-import styles from "./Products.";
+import styles from "./Products.module.scss";
 import { FontAwesomeIcon } from "@fortawesome/react-fontawesome";
 import { faHeart, faSquarePlus } from "@fortawesome/free-regular-svg-icons";
 import {
