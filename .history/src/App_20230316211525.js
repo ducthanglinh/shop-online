@@ -1,9 +1,4 @@
-import {
-  BrowserRouter as Router,
-  Routes,
-  Route,
-  Navigate,
-} from "react-router-dom";
+import { BrowserRouter as Router, Routes, Route } from "react-router-dom";
 import { publicRoutes } from "~/route";
 import { Fragment } from "react";
 function App() {
@@ -15,7 +10,6 @@ function App() {
             const Page = route.component;
             return <Route key={index} path={route.path} element={<Page />} />;
           })}
-          <Route path="*" element={<Navigate to="/" />} />
         </Routes>
       </div>
     </Router>
