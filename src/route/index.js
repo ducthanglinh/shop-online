@@ -15,6 +15,7 @@ import Login from "~/pages/Login";
 import SignUp from "~/pages/SignUp";
 import ProductDetails from "~/pages/ProductDetails";
 import CartPage from "~/pages/CartPage";
+import BlogDetail from "~/pages/BlogDetail";
 
 const publicRoutes = [
   {
@@ -76,6 +77,10 @@ const publicRoutes = [
   {
     path: config.routes.cartpage,
     component: CartPage,
+  },
+  {
+    path: config.routes.blogdetail,
+    component: BlogDetail,
   },
   // {
   //   path: config.routes.wishlist,

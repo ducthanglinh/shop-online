@@ -1,6 +1,8 @@
 import styles from "./LastestNew.module.scss";
 import classNames from "classnames/bind";
 import { dataNews } from "~/components/GlobalStyles/dataNews";
+import { Link } from "react-router-dom";
+import config from "~/config";
 const cx = classNames.bind(styles);
 function LastestNew() {
   return (
@@ -38,8 +40,13 @@ function LastestNew() {
                         <p className={cx("time")}>{item.time}</p>
                       </div>
                       <p className={cx("des")}>{item.des}</p>
-
-                      <button className={cx("btnRead")}>Read more</button>
+                      <a
+                        href={`/BlogDetail/${item.id}`}
+                        className={cx("btnRead")}
+                      >
+                        Read more
+                      </a>{" "}
+                      {/* <button className={cx("btnRead")}>Read more</button> */}
                     </div>
                   </div>
                 </div>

@@ -14,6 +14,7 @@ const routes = {
   signup: "/signup",
   productdetails: "/productDetails",
   cartpage: "/cartpage",
+  blogdetail: "/BlogDetail/:id",
 };
 
 export default routes;
